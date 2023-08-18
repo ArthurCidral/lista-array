@@ -1,16 +1,10 @@
 <script>
-    //Problema: Adicionar SUV
-    //Crie os seguintes arrays:
-    // let carrosSUV = ["Tiggo", "Sportage", "Tucson", "EcoSport"];
-    //Pergunte ao usuário qual carro deseja ADICIONAR na lista.
-    //Apresente a lista antiga de SUVs e a nova lista, após a adição do veículo solicitado.
 
-    //ENTRADA
+    let carrosSUV = ["Tiggo", "Sportage", "Tucson", "EcoSport"];
+    const adicione = prompt((`Informe carro SUV você deseja adicionar a está lista:${carrosSUV.join(", ")}`));
+   
+    alert(`A lista antiga possui: ${carrosSUV.join(", ")}`);
+    const add = carrosSUV.push(adicione);
 
-
-    //PROCESSAMENTO
-
-
-    //SAÍDA
-
+    alert(`A lista atual é: ${carrosSUV.join(", ")}`);
 </script>
